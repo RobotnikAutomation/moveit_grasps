@@ -25,6 +25,7 @@ find_package(catkin REQUIRED COMPONENTS
   moveit_ros_planning
   moveit_ros_planning_interface
   moveit_visual_tools
+  rviz_visual_tools
   roscpp
   roslint
   rosparam_shortcuts
@@ -44,6 +45,7 @@ catkin_package(
     message_runtime
     moveit_msgs
     moveit_visual_tools
+    rviz_visual_tools
     rosparam_shortcuts
     std_msgs
     trajectory_msgs
